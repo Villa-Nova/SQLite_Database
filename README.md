@@ -10,18 +10,12 @@ Projeto desenvolvido com  proposito de aprendizagem sobre bancos de dados relaci
 
 >Teste de rotas: Insomnia
   - Ferramenta que auxilia na utilização e teste das rotas criadas.
-  
-  🔗https://insomnia.rest/download
 
 >Visualização do banco de dados: Beekeeper Studio
   - Ferramenta que auxilia na visualização e melhor compreensão das tabelas e seus relacionamentos entre sí.
-  
-  🔗https://www.beekeeperstudio.io/
 
 >Editor de código: Visual Studio Code
   - Editor de código utilizado para desenvolver o projeto.
-
-  🔗https://code.visualstudio.com/
 
 ## Bibliotecas Utilizadas:
 

@@ -1,0 +1,28 @@
+{
+  "name": "sqlite-database-movies",
+  "version": "1.0.0",
+  "description": "SQLite database movies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js",
+    "knex": "knex init",
+    "note": "knex migrate:make createNote",
+    "tag": "knex migrate:make createTag",
+    "migrate": "knex migrate:latest"
+  },
+  "keywords": [],
+  "author": "Mateus Villa Nova",
+  "license": "ISC",
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "knex": "^2.4.2",
+    "sqlite": "^4.1.2",
+    "sqlite3": "^5.1.4"
+  }
+}
